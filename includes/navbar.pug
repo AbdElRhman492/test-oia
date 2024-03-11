@@ -1,0 +1,44 @@
+header
+  .progress-container
+    #progress-bar.progress-bar
+  .container
+    p.logo
+      img(src='assets/images/logo1.png' alt='logo')
+    ul.translate
+      li.item 
+        a(href="#", onclick="switchLanguage('ar')", class="link") عربي
+      li.item 
+        a(href="#", onclick="switchLanguage('en')", class="link") | EN
+    input#btn(type='checkbox' name='btn')
+    label.menu-btn(for='btn')
+      i.fa-solid.fa-bars-staggered
+    .menu
+      .child
+        p#1.name
+          | menu
+        .items
+          a#2(href=homeLink) home
+          a#3(href=aboutLink) about
+          a#4(href=featuresLink) features
+          a#5(href=clientsLink) our clients
+          a#6(href=teamLink) our team
+          a#7(href=meetLink) meet us
+          a#8(href=opinionsLink) opinions
+      .child
+        p#10.name
+          | get in touch
+        .items
+          a#11(href='services.html') Services
+          a#72(href='contact.html') contact us
+          a#9(href='hire.html') get hired
+      .child
+        p#12.name
+          | get social
+        .items
+          a(href='#') facebook
+          a(href='#') instagram
+          a(href='#') whatsapp
+          a(href='#') twitter
+      .copy
+        p
+          | &copy; oia-media.com 2024
