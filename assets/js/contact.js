@@ -64,6 +64,8 @@ if (document.getElementById("contactPage")) {
       69: "انضم إلينا الان",
       70: "جميع الحقوق محفوظة",
       71: "خدماتنا",
+      72: "تواصل معنا خلال الواتس اب",
+      73: "اسهل طريقة للتواصل مع الفريق لحجز موعد",
     },
     en: {
       // Landing Page
@@ -129,11 +131,13 @@ if (document.getElementById("contactPage")) {
       69: "Join our team now",
       70: "All rights reserved",
       71: "Services",
+      72: "Contact through whatsapp",
+      73: "Easiest way to reach the team and schedule a meeting",
     },
   };
 
   function switchLanguage(lang) {
-    for (let i = 1; i <= 71; i++) {
+    for (let i = 1; i <= 73; i++) {
       if (document.getElementById(i)) {
         document.getElementById(i).innerHTML = translations[lang][i];
       }
