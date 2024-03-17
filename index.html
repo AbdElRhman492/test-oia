@@ -1,448 +1,386 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="OIA - Marketing Solutions | We're all about making your online presence shine. Whether you're just starting out or already a big player, we've got your back with fresh and creative strategies to get you noticed. From social media to search engine smarts, we've got the tools and the team to help your business grow online.">
-  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-  <!-- ----- Google Fonts ------->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
-  <!-- ----- Font Awesome Library ------->
-  <link rel="stylesheet" href="assets/libraries/css/all.min.css">
-  <!-- ----- Aos Library ------->
-  <link rel="stylesheet" href="assets/libraries/css/aos.css">
-  <!-- ----- Stylesheets ------->
-  <link rel="stylesheet" href="assets/css/style.min.css">
-  <title>OIA - Marketing Solutions </title>
-</head>
-
-<body>
-  <div class="wrapper" id="homePage">
-    <main>
-      <header>
-        <div class="progress-container">
-          <div class="progress-bar" id="progress-bar"></div>
-        </div>
-        <div class="container">
-          <input id="btn" type="checkbox" name="btn">
-          <label class="menu-btn" for="btn"><i class="fa-solid fa-bars-staggered"></i></label>
-          <ul class="translate">
-            <li class="item"> <a class="link" href="#" onclick="switchLanguage('ar')">عربي</a></li><span>|</span>
-            <li class="item"> <a class="link" href="#" onclick="switchLanguage('en')">EN</a></li>
-          </ul><a class="logo" href="index.html"><img src="assets/images/logo1.png" alt="logo"></a>
-          <div class="menu">
-            <div class="child">
-              <p class="name" id="1">menu</p>
-              <div class="items"><a id="2" href="#hero">home</a><a id="3" href="#about">about</a><a id="71"
-                  href="services.html">Services</a><a id="6" href="#team">our team</a></div>
-            </div>
-            <div class="child">
-              <p class="name" id="10">get in touch</p>
-              <div class="items"><a id="11" href="contact.html">contact us</a><a id="9" href="hire.html">get hired</a>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OIA - Marketing Solutions | We're all about making your online presence shine. Whether you're just starting out or already a big player, we've got your back with fresh and creative strategies to get you noticed. From social media to search engine smarts, we've got the tools and the team to help your business grow online.">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- ----- Google Fonts -------><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <!-- ----- Font Awesome Library ------->
+    <link rel="stylesheet" href="assets/libraries/css/all.min.css">
+    <!-- ----- Aos Library ------->
+    <link rel="stylesheet" href="assets/libraries/css/aos.css">
+    <!-- ----- Stylesheets ------->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <title>OIA - Marketing Solutions </title>
+  </head>
+  <body>
+    <div class="wrapper" id="homePage">
+      <main>
+        <header>
+          <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+          <div class="container">
+            <input id="btn" type="checkbox" name="btn">
+            <label class="menu-btn" for="btn"><i class="fa-solid fa-bars-staggered"></i></label>
+            <ul class="translate">
+              <li class="item"> <a class="link" href="#" onclick="changeLanguage('ar')">عربي</a></li><span>|</span>
+              <li class="item"> <a class="link" href="#" onclick="changeLanguage('en')">EN</a></li>
+            </ul><a class="logo" href="index.html"><img src="assets/images/logo1.png" alt="logo"></a>
+            <div class="menu">
+              <div class="child">
+                <p class="name" data-translate="nav-title1">menu</p>
+                <div class="items"><a href="#hero" data-translate="nav-item1">home</a><a href="#about" data-translate="nav-item2">about</a><a href="services.html" data-translate="nav-item3">Services</a><a href="#team" data-translate="nav-item4">our team</a></div>
+              </div>
+              <div class="child">
+                <p class="name" data-translate="nav-title2">get in touch</p>
+                <div class="items"><a href="contact.html" data-translate="nav-item5">contact us</a><a href="hire.html" data-translate="nav-item6">get hired</a></div>
+              </div>
+              <div class="child">
+                <p class="name" data-translate="nav-title3">get social</p>
+                <div class="items"><a href="https://wa.me/+201099144423" target="_blank">whatsapp</a><a href="https://www.facebook.com/abdo492" target="_blank">facebook</a><a href="https://twitter.com/oiamedia_" target="_blank">X</a><a href="https://www.linkedin.com/in/oia-media-837a482b4/" target="_blank">linkedin</a><a href="https://www.instagram.com/oiamedia.me/" target="_blank">instagram</a><a href="https://www.tiktok.com/@oiamedia" target="_blank">tiktok</a></div>
               </div>
             </div>
-            <div class="child">
-              <p class="name" id="12">get social</p>
-              <div class="items"><a href="https://wa.me/+201099144423" target="_blank">whatsapp</a><a
-                  href="https://www.facebook.com/abdo492" target="_blank">facebook</a><a
-                  href="https://twitter.com/oiamedia_" target="_blank">X</a><a
-                  href="https://www.linkedin.com/in/oia-media-837a482b4/" target="_blank">linkedin</a><a
-                  href="https://www.instagram.com/oiamedia.me/" target="_blank">instagram</a><a
-                  href="https://www.tiktok.com/@oiamedia" target="_blank">tiktok</a></div>
+          </div>
+        </header>
+        <section class="hero" id="hero">
+          <div class="container">
+            <div class="content" data-aos="fade-right">
+              <h1 class="title" data-translate="hero-title">Welcome to OIA</h1>
+              <p class="description1" data-translate="hero-description1">We're all about making your online presence shine. Whether you're just starting out or already a big player, we've got your back with fresh and creative strategies to get you noticed.</p>
+              <p class="description2" data-translate="hero-description2">From social media to search engine smarts, we've got the tools and the team to help your business grow online.</p>
+              <p class="slogan" data-translate="hero-description3">Let's make magic happen together at OIA Media!</p><a href="contact.html" target="_blank">
+                <button>
+                  <p class="text" data-translate="hero-btn-text"> CONTACT THE TEAM</p>
+                  <p class="description" data-translate="hero-btn-description">Schedule a FREE call now</p>
+                </button></a>
+            </div>
+            <div class="hero-img"><img class="dart_pc" src="assets/images/dart_pc.png" alt="Hero Landing Image"><img class="dart_phone" src="assets/images/dart_phone.png" alt="Hero Landing Image"></div>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <div class="container">
+            <div class="stats">
+              <p class="a" data-translate="about-title">TOTAL REVENUE GENERATED</p>
+              <p class="title" data-translate="about-number">$118 THOUSAND</p>
+              <div class="cards">
+                <div class="card">
+                  <p class="name" data-translate="about-card1">CLIENT HELPED</p>
+                  <p class="number" data-goal="11">0</p>
+                </div>
+                <div class="card">
+                  <p class="name" data-translate="about-card2">TOTAL AD SPEND</p>
+                  <p class="number money">$<span class="number" data-goal="22">0</span></p>
+                </div>
+                <div class="card">
+                  <p class="name" data-translate="about-card3">OFFICES</p>
+                  <p class="number">0</p>
+                </div>
+                <div class="card">
+                  <p class="name" data-translate="about-card4">SERVICES OFFER</p>
+                  <p class="number" data-goal="5">0</p>
+                </div>
+              </div>
+            </div>
+            <div class="content" data-aos="fade-up">
+              <p class="a" data-translate="about-text">ABOUT US</p>
+              <p class="b" data-translate="about-description">Our philosophy is simple yet powerful: we believe in the transformative potential of digital marketing to empower businesses of all sizes. We're committed to delivering excellence through a combination of creativity, innovation, and genuine care for our clients' success.</p>
+              <p class="c" data-translate="about-notice">Need a boost to your company ?</p><a href="contact.html" target="_blank">
+                <button>
+                  <p class="text" data-translate="about-btn-text"> CONTACT THE TEAM</p>
+                  <p class="description" data-translate="about-btn-description">Schedule a FREE call now</p>
+                </button></a>
             </div>
           </div>
-        </div>
-      </header>
-      <section class="hero" id="hero">
-        <div class="container">
-          <div class="content" data-aos="fade-right">
-            <h1 class="title" id="13">Welcome to OIA</h1>
-            <p class="description1" id="14">We're all about making your online presence shine. Whether you're just
-              starting out or already a big player, we've got your back with fresh and creative strategies to get you
-              noticed.</p>
-            <p class="description2" id="15">From social media to search engine smarts, we've got the tools and the team
-              to help your business grow online.</p>
-            <p class="slogan" id="16">Let's make magic happen together at OIA Media!</p><a href="contact.html"
-              target="_blank">
-              <button>
-                <p class="text" id="17"> CONTACT THE TEAM</p>
-                <p class="description" id="18">Schedule a FREE call now</p>
-              </button></a>
+        </section>
+        <svg class="feature-top-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="var(--bg-color-dark)" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,176C672,160,768,160,864,186.7C960,213,1056,267,1152,261.3C1248,256,1344,192,1392,160L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+        <section class="features" id="features">
+          <div class="container">
+            <div class="content">
+              <p class="a" data-translate="features-title">OH WAIT...</p>
+              <p class="b" data-translate="features-description">What do we provide ?</p>
+              <p class="title" data-translate="features-item">DIGITAL MARKETING</p>
+              <div class="digital-card">
+                <div class="icon"><i class="fa-solid fa-chart-simple"></i></div>
+              </div>
+              <p class="description" data-translate="features-item-description1" data-aos="fade-up" data-aos-delay="0">At OIA Media, we specialize in digital marketing strategies that boost your online visibility and sales. Our expertise includes smart use of social media, effective SEO, and strategic paid advertising to help your business thrive in the digital world.</p>
+              <p class="description" data-translate="features-item-description2" data-aos="fade-up" data-aos-delay="150">We view our relationship with you as a partnership, customizing our approaches to meet your unique needs. This involves a sharp focus on paid ads, where we target your potential customers precisely to ensure that your investment yields maximum returns.</p>
+              <p class="description" data-translate="features-item-description3" data-aos="fade-up" data-aos-delay="300">Committed to your success, we aim to enhance your online presence and increase sales through a blend of organic and paid strategies. Let's collaborate to make your brand stand out and drive higher sales with effective digital marketing. Talking about Return on Ad Spend (ROAS), if we don't generate more sales than you spend, you get your money back — that's a guarantee.</p>
+            </div>
+            <div class="test">
+              <p class="title" data-translate="features-items-title">Also we provide much more...</p>
+              <p class="description" data-translate="features-items-description">Of course your organization needs a stunning look, you just don’t worry about it, It’s on US!</p>
+              <div class="cards">
+                <div class="card" data-aos="fade-left" data-aos-delay="0">
+                  <div class="icon"><i class="fas fa-fingerprint"></i></div>
+                  <p class="name" data-translate="features-card1">BRANDING</p>
+                </div>
+                <div class="card" data-aos="fade-left" data-aos-delay="150">
+                  <div class="icon"><i class="fas fa-globe"></i></div>
+                  <p class="name" data-translate="features-card2">WEB DEVELOPMENT</p>
+                </div>
+                <div class="card" data-aos="fade-left" data-aos-delay="300">
+                  <div class="icon"><i class="far fa-circle-play"></i></div>
+                  <p class="name" data-translate="features-card3">CONTENT CREATION</p>
+                </div>
+                <div class="card" data-aos="fade-left" data-aos-delay="450">
+                  <div class="icon"><i class="fab fa-facebook"></i></div>
+                  <p class="name" data-translate="features-card4">SOCIAL MEDIA MANAGEMENT</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="hero-img"><img class="dart_pc" src="assets/images/dart_pc.png" alt="Hero Landing Image"><img
-              class="dart_phone" src="assets/images/dart_phone.png" alt="Hero Landing Image"></div>
-        </div>
-      </section>
-      <section class="about" id="about">
-        <div class="container">
-          <div class="stats">
-            <p class="a" id="19">TOTAL REVENUE GENERATED</p>
-            <p class="title" id="20">$118 THOUSAND</p>
+        </section>
+        <svg class="feature-down-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="var(--bg-color-dark)" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,176C672,160,768,160,864,186.7C960,213,1056,267,1152,261.3C1248,256,1344,192,1392,160L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        </svg>
+        <section class="clients" id="clients">
+          <div class="container">
+            <div class="content">
+              <p class="title" data-translate="clients-title">Big name that trust us </p>
+              <p class="description" data-translate="clients-description">We're honored to work with some of the biggest names in the industry who trust us to elevate their digital presence.</p>
+            </div>
             <div class="cards">
-              <div class="card">
-                <p class="name" id="21">CLIENT HELPED</p>
-                <p class="number" data-goal="11">0</p>
+              <div class="row">
+                <div class="card" data-aos="fade-up" data-aos-delay="0">
+                  <div class="icon"><img src="assets/images/blue-logo.png" alt="Client Img"></div>
+                  <div class="data">
+                    <p class="name">SAJEM</p>
+                    <p class="job">Fragrances</p>
+                    <p class="region">KSA</p>
+                  </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="150">
+                  <div class="icon"><img src="assets/images/blue-logo.png" alt="Client Img"></div>
+                  <div class="data">
+                    <p class="name">MENTALITY</p>
+                    <p class="job">Clinic</p>
+                    <p class="region">ARE</p>
+                  </div>
+                </div>
               </div>
-              <div class="card">
-                <p class="name" id="22">TOTAL AD SPEND</p>
-                <p class="number money">$<span class="number" data-goal="22">0</span></p>
-              </div>
-              <div class="card">
-                <p class="name" id="23">OFFICES</p>
-                <p class="number">0</p>
-              </div>
-              <div class="card">
-                <p class="name" id="24">SERVICES OFFER</p>
-                <p class="number" data-goal="5">0</p>
+              <div class="row">
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon"><img src="assets/images/blue-logo.png" alt="Client Img"></div>
+                  <div class="data">
+                    <p class="name">EDUTUDY</p>
+                    <p class="job">Educational</p>
+                    <p class="region">TRKY</p>
+                  </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="450">
+                  <div class="icon"><img src="assets/images/blue-logo.png" alt="Client Img"></div>
+                  <div class="data">
+                    <p class="name">ALLEMNY</p>
+                    <p class="job">Education</p>
+                    <p class="region">KW</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="content" data-aos="fade-up">
-            <p class="a" id="25">ABOUT US</p>
-            <p class="b" id="26">Our philosophy is simple yet powerful: we believe in the transformative potential of
-              digital marketing to empower businesses of all sizes. We're committed to delivering excellence through a
-              combination of creativity, innovation, and genuine care for our clients' success.</p>
-            <p class="c" id="27">Need a boost to your company ?</p><a href="contact.html" target="_blank">
-              <button>
-                <p class="text" id="28"> CONTACT THE TEAM</p>
-                <p class="description" id="29">Schedule a FREE call now</p>
-              </button></a>
-          </div>
-        </div>
-      </section>
-      <svg class="feature-top-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="var(--bg-color-dark)" fill-opacity="1"
-          d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,176C672,160,768,160,864,186.7C960,213,1056,267,1152,261.3C1248,256,1344,192,1392,160L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
-      </svg>
-      <section class="features" id="features">
-        <div class="container">
-          <div class="content">
-            <p class="a" id="30">OH WAIT...</p>
-            <p class="b" id="31">What do we provide ?</p>
-            <p class="title" id="32">DIGITAL MARKETING</p>
-            <div class="digital-card">
-              <div class="icon"><i class="fa-solid fa-chart-simple"></i></div>
-            </div>
-            <p class="description" id="33" data-aos="fade-up" data-aos-delay="0">At OIA Media, we specialize in digital
-              marketing strategies that boost your online visibility and sales. Our expertise includes smart use of
-              social media, effective SEO, and strategic paid advertising to help your business thrive in the digital
-              world.</p>
-            <p class="description" id="34" data-aos="fade-up" data-aos-delay="150">We view our relationship with you as
-              a partnership, customizing our approaches to meet your unique needs. This involves a sharp focus on paid
-              ads, where we target your potential customers precisely to ensure that your investment yields maximum
-              returns.</p>
-            <p class="description" id="35" data-aos="fade-up" data-aos-delay="300">Committed to your success, we aim to
-              enhance your online presence and increase sales through a blend of organic and paid strategies. Let's
-              collaborate to make your brand stand out and drive higher sales with effective digital marketing. Talking
-              about Return on Ad Spend (ROAS), if we don't generate more sales than you spend, you get your money back —
-              that's a guarantee.</p>
-          </div>
-          <div class="test">
-            <p class="title" id="36">Also we provide much more...</p>
-            <p class="description" id="37">Of course your organization needs a stunning look, you just don’t worry about
-              it, It’s on US!</p>
+        </section>
+        <svg class="team-top-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="var(--bg-color-dark)" fill-opacity="1" d="M0,256L48,240C96,224,192,192,288,160C384,128,480,96,576,117.3C672,139,768,213,864,208C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+        <section class="team" id="team">
+          <div class="container">
+            <p class="title" data-translate="team-title">MEET THE A-TEAM</p>
             <div class="cards">
-              <div class="card" data-aos="fade-left" data-aos-delay="0">
-                <div class="icon"><i class="fas fa-fingerprint"></i></div>
-                <p class="name" id="38">BRANDING</p>
-              </div>
-              <div class="card" data-aos="fade-left" data-aos-delay="150">
-                <div class="icon"><i class="fas fa-globe"></i></div>
-                <p class="name" id="39">WEB DEVELOPMENT</p>
-              </div>
-              <div class="card" data-aos="fade-left" data-aos-delay="300">
-                <div class="icon"><i class="far fa-circle-play"></i></div>
-                <p class="name" id="40">CONTENT CREATION</p>
-              </div>
-              <div class="card" data-aos="fade-left" data-aos-delay="450">
-                <div class="icon"><i class="fab fa-facebook"></i></div>
-                <p class="name" id="41">SOCIAL MEDIA MANAGEMENT</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <svg class="feature-down-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="var(--bg-color-dark)" fill-opacity="1"
-          d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,176C672,160,768,160,864,186.7C960,213,1056,267,1152,261.3C1248,256,1344,192,1392,160L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-        </path>
-      </svg>
-      <section class="clients" id="clients">
-        <div class="container">
-          <div class="content">
-            <p class="title" id="42">Big name that trust us </p>
-            <p class="description" id="43">We're honored to work with some of the biggest names in the industry who
-              trust us to elevate their digital presence.</p>
-          </div>
-          <div class="cards">
-            <div class="row">
-              <div class="card" data-aos="fade-up" data-aos-delay="0">
-                <div class="icon"><img src="assets/images/blue-logo.png" alt="Client Img"></div>
-                <div class="data">
-                  <p class="name">SAJEM</p>
-                  <p class="job">Fragrances</p>
-                  <p class="region">KSA</p>
-                </div>
-              </div>
-              <div class="card" data-aos="fade-up" data-aos-delay="150">
-                <div class="icon"><img src="assets/images/blue-logo.png" alt="Client Img"></div>
-                <div class="data">
-                  <p class="name">MENTALITY</p>
-                  <p class="job">Clinic</p>
-                  <p class="region">ARE</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="card" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon"><img src="assets/images/blue-logo.png" alt="Client Img"></div>
-                <div class="data">
-                  <p class="name">EDUTUDY</p>
-                  <p class="job">Educational</p>
-                  <p class="region">TRKY</p>
-                </div>
-              </div>
-              <div class="card" data-aos="fade-up" data-aos-delay="450">
-                <div class="icon"><img src="assets/images/blue-logo.png" alt="Client Img"></div>
-                <div class="data">
-                  <p class="name">ALLEMNY</p>
-                  <p class="job">Education</p>
-                  <p class="region">KW</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <svg class="team-top-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="var(--bg-color-dark)" fill-opacity="1"
-          d="M0,256L48,240C96,224,192,192,288,160C384,128,480,96,576,117.3C672,139,768,213,864,208C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
-      </svg>
-      <section class="team" id="team">
-        <div class="container">
-          <p class="title" id="44">MEET THE A-TEAM</p>
-          <div class="cards">
-            <div class="row">
-              <div class="card" data-aos="fade-up" data-aos-delay="0">
-                <div class="icon"> <img src="assets/images/omar.png" alt="Team Member"></div>
-                <div class="about">
-                  <p class="name">Omar Umran</p>
-                  <p class="job">CEO & FOUNDER</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="card" data-aos="fade-down" data-aos-delay="150">
-                <div class="icon"> <img src="assets/images/mostafa.png" alt="Team Member"></div>
-                <div class="about">
-                  <p class="name">Mostafa Yasser</p>
-                  <p class="job">Creative Director</p>
-                </div>
-              </div>
-              <div class="card" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon"> <img src="assets/images/abdo.png" alt="Team Member"></div>
-                <div class="about">
-                  <p class="name">Abdelrahman Samir</p>
-                  <p class="job">Chief Marketing Officer</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="card" data-aos="fade-down" data-aos-delay="450">
-                <div class="icon"> <img src="assets/images/abdo2.png" alt="Team Member"></div>
-                <div class="about">
-                  <p class="name" dir="ltr">Abdelrahman M.</p>
-                  <p class="job">Sales Agent</p>
-                </div>
-              </div>
-              <div class="card" data-aos="fade-up" data-aos-delay="600">
-                <div class="icon"> <img src="assets/images/fatema.png" alt="Team Member"></div>
-                <div class="about">
-                  <p class="name">Fatma</p>
-                  <p class="job">Copywriter</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="description">
-            <p id="45" data-aos="fade-up" data-aos-delay="0">Dive into a world where unparalleled talent meets unmatched
-              experience. Our A-Team is the core of our agency, boasting a collective 10 years of expertise across
-              various industries. We're a dynamic group of visionaries, each selected for our unique skills and
-              dedication to excellence.</p>
-            <p id="46" data-aos="fade-up" data-aos-delay="150">Our broad spectrum of knowledge empowers us to deliver
-              innovative solutions that redefine standards. Whether it's digital marketing, business strategy, or
-              creative execution, we're at the cutting edge, ensuring our clients not only keep pace but lead the pack.
-            </p>
-            <p id="47" data-aos="fade-up" data-aos-delay="300">Partnering with us means joining forces with a team
-              dedicated to your success. We blend collaboration with proven methods to turn challenges into triumphs.
-            </p>
-            <p id="48" data-aos="fade-up" data-aos-delay="450">Experience the future of digital success with the A-Team.
-            </p>
-          </div>
-        </div>
-      </section>
-      <svg class="team-down-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="var(--bg-color-dark)" fill-opacity="1"
-          d="M0,128L48,154.7C96,181,192,235,288,224C384,213,480,139,576,112C672,85,768,107,864,133.3C960,160,1056,192,1152,181.3C1248,171,1344,117,1392,90.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-        </path>
-      </svg>
-      <section class="contact-home" id="contact">
-        <div class="container">
-          <div class="card">
-            <div class="header">
-              <div class="data">
-                <div class="icon"><img src="assets/images/omar-full.png" alt="Card Logo"></div>
-                <div class="info">
-                  <p class="name">Omar Umran</p>
-                  <p class="job">CEO & FOUNDER</p>
-                </div>
-              </div>
-              <div class="logo"> <img src="assets/images/blue-logo.png" alt="Logo"></div>
-            </div>
-            <div class="body">
-              <p class="title" id="49">SCHEDULE A FREE CALL WITH OMAR</p>
-              <p class="description" id="50">By the end of this Audit call, you will have a clear understanding of the
-                next steps you can take for your business to start generating consistent and reliable results online
-                with Funnels & Paid Advertising.</p>
-              <div class="wrapper">
-                <ul>
-                  <p class="ul-title" id="51">THIS CALL IS PERFECT FOR :</p>
-                  <li class="item" data-aos="fade-up" data-aos-delay="0">
-                    <p id="52">Businesses wanting to turn their website into a high-converting funnel using digital
-                      marketing.</p>
-                  </li>
-                  <li class="item" data-aos="fade-up" data-aos-delay="150">
-                    <p id="53">Offline businesses ready to go online with effective digital marketing strategies.</p>
-                  </li>
-                  <li class="item" data-aos="fade-up" data-aos-delay="300">
-                    <p id="54">Companies aiming to boost revenue with sales funnels and conversion optimization.</p>
-                  </li>
-                  <li class="item" data-aos="fade-up" data-aos-delay="450">
-                    <p id="55">Those looking to improve conversion rates and order value through targeted paid ads.</p>
-                  </li>
-                  <li class="item" data-aos="fade-up" data-aos-delay="600">
-                    <p id="56">Businesses seeking a reliable agency with expertise in digital marketing and
-                      paid advertising.</p>
-                  </li>
-                </ul><a href="contact.html" target="_blank">
-                  <button>
-                    <p class="text" id="57">SCHEDULE A CALL NOW</p>
-                  </button></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="opinions" id="opinions">
-        <div class="container">
-          <p class="title" id="58">Client's opinions about us</p>
-          <div class="cards">
-            <div class="row">
-              <div class="card" data-aos="fade-up" data-aos-delay="0">
-                <div class="data">
-                  <div class="icon"> <img src="assets/images/omar-full.png" alt="image"></div>
+              <div class="row">
+                <div class="card" data-aos="fade-up" data-aos-delay="0">
+                  <div class="icon"> <img src="assets/images/omar.png" alt="Team Member"></div>
                   <div class="about">
-                    <p class="name">Sajem</p>
-                    <p class="job">Fragrances | KSA</p>
+                    <p class="name">Omar Umran</p>
+                    <p class="job">CEO & FOUNDER</p>
                   </div>
                 </div>
-                <p class="description" id="59">A great experience work with this team !</p>
               </div>
-              <div class="card" data-aos="fade-up" data-aos-delay="150">
-                <div class="data">
-                  <div class="icon"> <img src="assets/images/omar-full.png" alt="image"></div>
+              <div class="row">
+                <div class="card" data-aos="fade-down" data-aos-delay="150"> 
+                  <div class="icon"> <img src="assets/images/mostafa.png" alt="Team Member"></div>
                   <div class="about">
-                    <p class="name">Sajem</p>
-                    <p class="job">Fragrances | KSA</p>
+                    <p class="name">Mostafa Yasser</p>
+                    <p class="job">Creative Director</p>
                   </div>
                 </div>
-                <p class="description" id="60">A great experience work with this team !</p>
+                <div class="card" data-aos="fade-up" data-aos-delay="300"> 
+                  <div class="icon"> <img src="assets/images/abdo.png" alt="Team Member"></div>
+                  <div class="about">
+                    <p class="name">Abdelrahman Samir</p>
+                    <p class="job">Chief Marketing Officer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="card" data-aos="fade-down" data-aos-delay="450"> 
+                  <div class="icon"> <img src="assets/images/abdo2.png" alt="Team Member"></div>
+                  <div class="about">
+                    <p class="name" dir="ltr">Abdelrahman M.</p>
+                    <p class="job">Sales Agent</p>
+                  </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="600"> 
+                  <div class="icon"> <img src="assets/images/fatema.png" alt="Team Member"></div>
+                  <div class="about">
+                    <p class="name">Fatma</p>
+                    <p class="job">Copywriter</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="card" data-aos="fade-up" data-aos-delay="300">
+            <div class="description">
+              <p data-aos="fade-up" data-aos-delay="0" data-translate="team-description1">Dive into a world where unparalleled talent meets unmatched experience. Our A-Team is the core of our agency, boasting a collective 10 years of expertise across various industries. We're a dynamic group of visionaries, each selected for our unique skills and dedication to excellence.</p>
+              <p data-aos="fade-up" data-aos-delay="150" data-translate="team-description2">Our broad spectrum of knowledge empowers us to deliver innovative solutions that redefine standards. Whether it's digital marketing, business strategy, or creative execution, we're at the cutting edge, ensuring our clients not only keep pace but lead the pack.</p>
+              <p data-aos="fade-up" data-aos-delay="300" data-translate="team-description3">Partnering with us means joining forces with a team dedicated to your success. We blend collaboration with proven methods to turn challenges into triumphs.</p>
+              <p data-aos="fade-up" data-aos-delay="450" data-translate="team-description4">Experience the future of digital success with the A-Team.</p>
+            </div>
+          </div>
+        </section>
+        <svg class="team-down-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="var(--bg-color-dark)" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,224C384,213,480,139,576,112C672,85,768,107,864,133.3C960,160,1056,192,1152,181.3C1248,171,1344,117,1392,90.7L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+        </svg>
+        <section class="contact-home" id="contact">
+          <div class="container">
+            <div class="card">
+              <div class="header">
                 <div class="data">
-                  <div class="icon"> <img src="assets/images/omar-full.png" alt="image"></div>
-                  <div class="about">
-                    <p class="name">Sajem</p>
-                    <p class="job">Fragrances | KSA</p>
+                  <div class="icon"><img src="assets/images/omar-full.png" alt="Card Logo"></div>
+                  <div class="info">
+                    <p class="name">Omar Umran</p>
+                    <p class="job">CEO & FOUNDER</p>
                   </div>
                 </div>
-                <p class="description" id="61">A great experience work with this team !</p>
+                <div class="logo"> <img src="assets/images/blue-logo.png" alt="Logo"></div>
               </div>
-              <div class="card" data-aos="fade-up" data-aos-delay="450">
-                <div class="data">
-                  <div class="icon"> <img src="assets/images/omar-full.png" alt="image"></div>
-                  <div class="about">
-                    <p class="name">Sajem</p>
-                    <p class="job">Fragrances | KSA</p>
-                  </div>
+              <div class="body">
+                <p class="title" data-translate="contact-card-title">SCHEDULE A FREE CALL WITH OMAR</p>
+                <p class="description" data-translate="contact-card-description">By the end of this Audit call, you will have a clear understanding of the next steps you can take for your business to start generating consistent and reliable results online with Funnels & Paid Advertising.</p>
+                <div class="wrapper">
+                  <ul>
+                    <p class="ul-title" data-translate="contact-items-title">THIS CALL IS PERFECT FOR :</p>
+                    <li class="item" data-aos="fade-up" data-aos-delay="0">
+                      <p data-translate="contact-item1">Businesses wanting to turn their website into a high-converting funnel using digital marketing.</p>
+                    </li>
+                    <li class="item" data-aos="fade-up" data-aos-delay="150">
+                      <p data-translate="contact-item2">Offline businesses ready to go online with effective digital marketing strategies.</p>
+                    </li>
+                    <li class="item" data-aos="fade-up" data-aos-delay="300">
+                      <p data-translate="contact-item3">Companies aiming to boost revenue with sales funnels and conversion optimization.</p>
+                    </li>
+                    <li class="item" data-aos="fade-up" data-aos-delay="450">
+                      <p data-translate="contact-item4">Those looking to improve conversion rates and order value through targeted paid ads.</p>
+                    </li>
+                    <li class="item" data-aos="fade-up" data-aos-delay="600">
+                      <p data-translate="contact-item5">Businesses seeking a reliable agency with expertise in digital marketing and paid advertising.</p>
+                    </li>
+                  </ul><a href="contact.html" target="_blank">
+                    <button>
+                      <p class="text" data-translate="contact-card-btn">SCHEDULE A CALL NOW</p>
+                    </button></a>
                 </div>
-                <p class="description" id="62">A great experience work with this team !</p>
               </div>
             </div>
           </div>
-        </div>
-      </section><span id="scroll-up"><i class="fas fa-angles-up"></i></span>
-      <footer>
-        <div class="container">
-          <div class="content">
-            <p class="title" id="63">We do grant things together !</p>
-            <p class="description" id="64">If you want to speak to our expert team kindly reach us via email at:
-              oiamediaofficial@gmail.com</p>
+        </section>
+        <section class="opinions" id="opinions">
+          <div class="container">
+            <p class="title" data-translate="opinion-title">Client's opinions about us</p>
+            <div class="cards">
+              <div class="row">
+                <div class="card" data-aos="fade-up" data-aos-delay="0">
+                  <div class="data">
+                    <div class="icon"> <img src="assets/images/omar-full.png" alt="image"></div>
+                    <div class="about">
+                      <p class="name">Sajem</p>
+                      <p class="job">Fragrances | KSA</p>
+                    </div>
+                  </div>
+                  <p class="description" data-translate="opinion-card1">A great experience work with this team !</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="150"> 
+                  <div class="data">
+                    <div class="icon"> <img src="assets/images/omar-full.png" alt="image"></div>
+                    <div class="about">
+                      <p class="name">Sajem</p>
+                      <p class="job">Fragrances | KSA</p>
+                    </div>
+                  </div>
+                  <p class="description" data-translate="opinion-card2">A great experience work with this team !</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="card" data-aos="fade-up" data-aos-delay="300"> 
+                  <div class="data">
+                    <div class="icon"> <img src="assets/images/omar-full.png" alt="image"></div>
+                    <div class="about">
+                      <p class="name">Sajem</p>
+                      <p class="job">Fragrances | KSA</p>
+                    </div>
+                  </div>
+                  <p class="description" data-translate="opinion-card3">A great experience work with this team !</p>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-delay="450"> 
+                  <div class="data">
+                    <div class="icon"> <img src="assets/images/omar-full.png" alt="image"></div>
+                    <div class="about">
+                      <p class="name">Sajem</p>
+                      <p class="job">Fragrances | KSA</p>
+                    </div>
+                  </div>
+                  <p class="description" data-translate="opinion-card4">A great experience work with this team !</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="btns"><a href="contact.html" target="_blank">
-              <button class="contact-btn" type="submit" target="_blank">
-                <p class="text" id="65">CONTACT THE TEAM</p>
-                <p class="description" id="66">Schedule a FREE call now</p>
-              </button></a>
-            <p id="67">or</p><a href="https://wa.me/+201015484767" target="_blank">
-              <button class="hire-btn" type="submit" target="_blank">
-                <p class="text" id="68">GET HIRED</p>
-                <p class="description" id="69">Join our team now</p>
-              </button></a>
+        </section><span id="scroll-up"><i class="fas fa-angles-up"></i></span>
+        <footer>
+          <div class="container">
+            <div class="content">
+              <p class="title" data-translate="footer-title">We do grant things together !</p>
+              <p class="description" data-translate="footer-description">If you want to speak to our expert team kindly reach us via email at: oiamediaofficial@gmail.com</p>
+            </div>
+            <div class="btns"><a href="contact.html" target="_blank">
+                <button class="contact-btn" type="submit" target="_blank">
+                  <p class="text" data-translate="footer-btn1-text">CONTACT THE TEAM</p>
+                  <p class="description" data-translate="footer-btn1-description">Schedule a FREE call now</p>
+                </button></a>
+              <p data-translate="footer-divider">or</p><a href="https://wa.me/+201015484767" target="_blank">
+                <button class="hire-btn" type="submit" target="_blank">
+                  <p class="text" data-translate="footer-btn2-text">GET HIRED</p>
+                  <p class="description" data-translate="footer-btn2-description">Join our team now</p>
+                </button></a>
+            </div>
+            <div class="social-platforms">
+              <div class="platform"><a href="https://www.instagram.com/oiamedia.me/" target="_blank"><i class="fa-brands fa-instagram" style="color: var(--text-color-light);"></i></a></div>
+              <div class="platform"><a href="https://wa.me/+201099144423" target="_blank"><i class="fa-brands fa-whatsapp" style="color: var(--text-color-light);"></i></a></div>
+              <div class="platform"><a href="https://www.facebook.com/abdo492" target="_blank"><i class="fa-brands fa-facebook" style="color: var(--text-color-light);"></i></a></div>
+              <div class="platform"><a href="https://twitter.com/oiamedia_" target="_blank"><i class="fa-brands fa-x-twitter" style="color: var(--text-color-light);"></i></a></div>
+              <div class="platform"><a href="https://www.tiktok.com/@oiamedia" target="_blank"><i class="fa-brands fa-tiktok" style="color: var(--text-color-light);"></i></a></div>
+              <div class="platform"><a href="https://www.linkedin.com/in/oia-media-837a482b4/" target="_blank"><i class="fa-brands fa-linkedin" style="color: var(--text-color-light);"></i></a></div>
+            </div>
+            <div class="rights">
+              <div class="icon"><img src="assets/images/logo.png" alt="OIA Media"></div>
+              <p> <span data-translate="footer-number">Company number </span><a href="tel:+201015870312">+201015870312</a></p>
+              <p data-translate="footer-rights">© All rights reserved.</p>
+            </div>
           </div>
-          <div class="social-platforms">
-            <div class="platform"><a href="https://www.instagram.com/oiamedia.me/" target="_blank"><i
-                  class="fa-brands fa-instagram" style="color: var(--text-color-light);"></i></a></div>
-            <div class="platform"><a href="https://wa.me/+201099144423" target="_blank"><i class="fa-brands fa-whatsapp"
-                  style="color: var(--text-color-light);"></i></a></div>
-            <div class="platform"><a href="https://www.facebook.com/abdo492" target="_blank"><i
-                  class="fa-brands fa-facebook" style="color: var(--text-color-light);"></i></a></div>
-            <div class="platform"><a href="https://twitter.com/oiamedia_" target="_blank"><i
-                  class="fa-brands fa-x-twitter" style="color: var(--text-color-light);"></i></a></div>
-            <div class="platform"><a href="https://www.tiktok.com/@oiamedia" target="_blank"><i
-                  class="fa-brands fa-tiktok" style="color: var(--text-color-light);"></i></a></div>
-            <div class="platform"><a href="https://www.linkedin.com/in/oia-media-837a482b4/" target="_blank"><i
-                  class="fa-brands fa-linkedin" style="color: var(--text-color-light);"></i></a></div>
-          </div>
-          <div class="rights">
-            <div class="icon"><img src="assets/images/logo.png" alt="OIA Media"></div>
-            <p>Company number <a href="tel:+201015870312">+201015870312</a></p>
-            <p>© All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-      <!-- ----- Font Awesome Library ------->
-      <script src="assets/libraries/js/all.min.js"> </script>
-      <!-- ----- Aos Library ------->
-      <script src="assets/libraries/js/aos.js"> </script>
-      <!-- ----- Stylesheets ------->
-      <script src="assets/js/all.js"></script>
-      <script src="assets/js/index.js"></script>
-    </main>
-  </div>
-</body>
-
+        </footer>
+        <!-- ----- Font Awesome Library ------->
+        <script src="assets/libraries/js/all.min.js"> </script>
+        <!-- ----- Aos Library ------->
+        <script src="assets/libraries/js/aos.js"> </script>
+        <!-- ----- Stylesheets ------->
+        <script src="assets/js/all.js"></script>
+      </main>
+    </div>
+  </body>
 </html>

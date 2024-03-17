@@ -1,211 +1,189 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="OIA - Marketing Solutions | We're all about making your online presence shine. Whether you're just starting out or already a big player, we've got your back with fresh and creative strategies to get you noticed. From social media to search engine smarts, we've got the tools and the team to help your business grow online.">
-  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-  <!-- ----- Google Fonts ------->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-    rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
-  <!-- ----- Font Awesome Library ------->
-  <link rel="stylesheet" href="assets/libraries/css/all.min.css">
-  <!-- ----- Aos Library ------->
-  <link rel="stylesheet" href="assets/libraries/css/aos.css">
-  <!-- ----- Stylesheets ------->
-  <link rel="stylesheet" href="assets/css/style.min.css">
-  <title>OIA - Marketing Solutions | Get Hired</title>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-</head>
-
-<body>
-  <div class="wrapper" id="hirePage">
-    <main>
-      <header>
-        <div class="progress-container">
-          <div class="progress-bar" id="progress-bar"></div>
-        </div>
-        <div class="container">
-          <input id="btn" type="checkbox" name="btn">
-          <label class="menu-btn" for="btn"><i class="fa-solid fa-bars-staggered"></i></label>
-          <ul class="translate">
-            <li class="item"> <a class="link" href="#" onclick="switchLanguage('ar')">عربي</a></li><span>|</span>
-            <li class="item"> <a class="link" href="#" onclick="switchLanguage('en')">EN</a></li>
-          </ul><a class="logo" href="index.html"><img src="assets/images/logo1.png" alt="logo"></a>
-          <div class="menu">
-            <div class="child">
-              <p class="name" id="1">menu</p>
-              <div class="items"><a id="2" href="index.html#hero">home</a><a id="3" href="index.html#about">about</a><a
-                  id="71" href="services.html">Services</a><a id="6" href="index.html#team">our team</a></div>
-            </div>
-            <div class="child">
-              <p class="name" id="10">get in touch</p>
-              <div class="items"><a id="11" href="contact.html">contact us</a><a id="9" href="hire.html">get hired</a>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OIA - Marketing Solutions | We're all about making your online presence shine. Whether you're just starting out or already a big player, we've got your back with fresh and creative strategies to get you noticed. From social media to search engine smarts, we've got the tools and the team to help your business grow online.">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- ----- Google Fonts -------><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    <!-- ----- Font Awesome Library ------->
+    <link rel="stylesheet" href="assets/libraries/css/all.min.css">
+    <!-- ----- Aos Library ------->
+    <link rel="stylesheet" href="assets/libraries/css/aos.css">
+    <!-- ----- Stylesheets ------->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <title>OIA - Marketing Solutions | Get Hired</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper" id="hirePage">
+      <main>
+        <header>
+          <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+          </div>
+          <div class="container">
+            <input id="btn" type="checkbox" name="btn">
+            <label class="menu-btn" for="btn"><i class="fa-solid fa-bars-staggered"></i></label>
+            <ul class="translate">
+              <li class="item"> <a class="link" href="#" onclick="changeLanguage('ar')">عربي</a></li><span>|</span>
+              <li class="item"> <a class="link" href="#" onclick="changeLanguage('en')">EN</a></li>
+            </ul><a class="logo" href="index.html"><img src="assets/images/logo1.png" alt="logo"></a>
+            <div class="menu">
+              <div class="child">
+                <p class="name" data-translate="nav-title1">menu</p>
+                <div class="items"><a href="index.html#hero" data-translate="nav-item1">home</a><a href="index.html#about" data-translate="nav-item2">about</a><a href="services.html" data-translate="nav-item3">Services</a><a href="index.html#team" data-translate="nav-item4">our team</a></div>
               </div>
-            </div>
-            <div class="child">
-              <p class="name" id="12">get social</p>
-              <div class="items"><a href="https://wa.me/+201099144423" target="_blank">whatsapp</a><a
-                  href="https://www.facebook.com/abdo492" target="_blank">facebook</a><a
-                  href="https://twitter.com/oiamedia_" target="_blank">X</a><a
-                  href="https://www.linkedin.com/in/oia-media-837a482b4/" target="_blank">linkedin</a><a
-                  href="https://www.instagram.com/oiamedia.me/" target="_blank">instagram</a><a
-                  href="https://www.tiktok.com/@oiamedia" target="_blank">tiktok</a></div>
+              <div class="child">
+                <p class="name" data-translate="nav-title2">get in touch</p>
+                <div class="items"><a href="contact.html" data-translate="nav-item5">contact us</a><a href="hire.html" data-translate="nav-item6">get hired</a></div>
+              </div>
+              <div class="child">
+                <p class="name" data-translate="nav-title3">get social</p>
+                <div class="items"><a href="https://wa.me/+201099144423" target="_blank">whatsapp</a><a href="https://www.facebook.com/abdo492" target="_blank">facebook</a><a href="https://twitter.com/oiamedia_" target="_blank">X</a><a href="https://www.linkedin.com/in/oia-media-837a482b4/" target="_blank">linkedin</a><a href="https://www.instagram.com/oiamedia.me/" target="_blank">instagram</a><a href="https://www.tiktok.com/@oiamedia" target="_blank">tiktok</a></div>
+              </div>
             </div>
           </div>
+        </header>
+        <section class="hire">
+          <div class="container" style="text-align:center">
+            <form method="post" id="hire_form">
+              <div class="fields-container" style="gap:25px">
+                <div class="title-container" style="text-align:center">
+                  <h1 class="title" data-translate="hire-title">Become a member of our team now !</h1>
+                  <p class="description" data-translate="hire-description">Fill the form below to join our team</p>
+                </div>
+                <div class="field">
+                  <div class="row">
+                    <div class="input-field">
+                      <div class="label">
+                        <div class="icon"><i class="fas fa-user"></i></div>
+                        <label for="name" data-translate="hire-input1">Name </label>
+                      </div>
+                      <div class="input">
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="field date">
+                  <div class="row" style="margin-top: 0">
+                    <div class="input-field">
+                      <div class="label">
+                        <div class="icon"><i class="far fa-calendar"></i></div>
+                        <label for="dop" data-translate="hire-input2">Date Of Birth </label>
+                      </div>
+                      <div class="input">
+                        <input id="date" type="date" name="dop" required>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="row">
+                    <div class="input-field">
+                      <div class="label">
+                        <div class="icon"><i class="fas fa-venus-mars"></i></div>
+                        <label for="scale" data-translate="hire-input3">Gender</label>
+                      </div>
+                      <div class="input">
+                        <select class="form-select" name="gender" id="gender" required>
+                          <option value="Male" data-translate="hire-input3-option1">Male</option>
+                          <option value="Female" data-translate="hire-input3-option2">Female</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="row">
+                    <div class="input-field">
+                      <div class="label">
+                        <div class="icon"><i class="fas fa-briefcase"></i></div>
+                        <label for="profession" data-translate="hire-input4">Your Profession</label>
+                      </div>
+                      <div class="input">
+                        <select class="form-select" name="profession" id="profession" required>
+                          <option value="AI">AI </option>
+                          <option value="Design">Design</option>
+                          <option value="Education">Education</option>
+                          <option value="Social Media">Social Media</option>
+                          <option value="Programming">Programming</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="row">
+                    <div class="input-field">
+                      <div class="label">
+                        <div class="icon"><i class="fas fa-gears"></i></div>
+                        <label for="experience" data-translate="hire-input5">Years Of Experience</label>
+                      </div>
+                      <div class="input">
+                        <select class="form-select" name="experience" id="experience" required>
+                          <option value="Less than 1 year" data-translate="hire-input5-option1">Less than 1 year</option>
+                          <option value="1 year" data-translate="hire-input5-option2">1 year</option>
+                          <option value="2 years" data-translate="hire-input5-option3">2 years</option>
+                          <option value="3 years" data-translate="hire-input5-option4">3 years</option>
+                          <option value="More than 3 years" data-translate="hire-input5-option5">More than 3 years</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="btn-submit">
+                  <button type="submit" id="send" data-translate="hire-btn">Send your data</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div><span id="scroll-up"><i class="fas fa-angles-up"></i></span>
+    <footer>
+      <div class="container">
+        <div class="content">
+          <p class="title" data-translate="footer-title">We do grant things together !</p>
+          <p class="description" data-translate="footer-description">If you want to speak to our expert team kindly reach us via email at: oiamediaofficial@gmail.com</p>
         </div>
-      </header>
-      <section class="hire">
-        <div class="container" style="text-align:center">
-          <form method="post" id="hire_form">
-            <div class="fields-container" style="gap:25px">
-              <div class="title-container" style="text-align:center">
-                <h1 class="title" id="13">Become a member of our team now !</h1>
-                <p class="description" id="14">Fill the form below to join our team</p>
-              </div>
-              <div class="field">
-                <div class="row">
-                  <div class="input-field">
-                    <div class="label">
-                      <div class="icon"><i class="fas fa-user"></i></div>
-                      <label for="name" id="15">Name </label>
-                    </div>
-                    <div class="input">
-                      <input type="text" name="name" id="name" placeholder="Enter your name" required>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="field date">
-                <div class="row" style="margin-top: 0">
-                  <div class="input-field">
-                    <div class="label">
-                      <div class="icon"><i class="far fa-calendar"></i></div>
-                      <label for="dop" id="16">Date Of Birth </label>
-                    </div>
-                    <div class="input">
-                      <input id="date" type="date" name="dop" required>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="field">
-                <div class="row">
-                  <div class="input-field">
-                    <div class="label">
-                      <div class="icon"><i class="fas fa-venus-mars"></i></div>
-                      <label for="scale" id="17">Gender</label>
-                    </div>
-                    <div class="input">
-                      <select class="form-select" name="gender" id="gender" required>
-                        <option value="Male" id="18">Male</option>
-                        <option value="Female" id="19">Female</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="field">
-                <div class="row">
-                  <div class="input-field">
-                    <div class="label">
-                      <div class="icon"><i class="fas fa-briefcase"></i></div>
-                      <label for="profession" id="20">Your Profession</label>
-                    </div>
-                    <div class="input">
-                      <select class="form-select" name="profession" id="profession" required>
-                        <option value="AI">AI </option>
-                        <option value="Design">Design</option>
-                        <option value="Education">Education</option>
-                        <option value="Social Media">Social Media</option>
-                        <option value="Programming">Programming</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="field">
-                <div class="row">
-                  <div class="input-field">
-                    <div class="label">
-                      <div class="icon"><i class="fas fa-gears"></i></div>
-                      <label for="experience" id="21">Years Of Experience</label>
-                    </div>
-                    <div class="input">
-                      <select class="form-select" name="experience" id="experience" required>
-                        <option value="Less than 1 year" id="22">Less than 1 year</option>
-                        <option value="1 year" id="23">1 year</option>
-                        <option value="2 years" id="24">2 years</option>
-                        <option value="3 years" id="25">3 years</option>
-                        <option value="More than 3 years" id="26">More than 3 years</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="btn-submit">
-                <button type="submit" id="send">Send your data</button>
-              </div>
-            </div>
-          </form>
+        <div class="btns"><a href="contact.html" target="_blank">
+            <button class="contact-btn" type="submit" target="_blank">
+              <p class="text" data-translate="footer-btn1-text">CONTACT THE TEAM</p>
+              <p class="description" data-translate="footer-btn1-description">Schedule a FREE call now</p>
+            </button></a>
+          <p data-translate="footer-divider">or</p><a href="https://wa.me/+201015484767" target="_blank">
+            <button class="hire-btn" type="submit" target="_blank">
+              <p class="text" data-translate="footer-btn2-text">GET HIRED</p>
+              <p class="description" data-translate="footer-btn2-description">Join our team now</p>
+            </button></a>
         </div>
-      </section>
-    </main>
-  </div><span id="scroll-up"><i class="fas fa-angles-up"></i></span>
-  <footer>
-    <div class="container">
-      <div class="content">
-        <p class="title" id="63">We do grant things together !</p>
-        <p class="description" id="64">If you want to speak to our expert team kindly reach us via email at:
-          oiamediaofficial@gmail.com</p>
+        <div class="social-platforms">
+          <div class="platform"><a href="https://www.instagram.com/oiamedia.me/" target="_blank"><i class="fa-brands fa-instagram" style="color: var(--text-color-light);"></i></a></div>
+          <div class="platform"><a href="https://wa.me/+201099144423" target="_blank"><i class="fa-brands fa-whatsapp" style="color: var(--text-color-light);"></i></a></div>
+          <div class="platform"><a href="https://www.facebook.com/abdo492" target="_blank"><i class="fa-brands fa-facebook" style="color: var(--text-color-light);"></i></a></div>
+          <div class="platform"><a href="https://twitter.com/oiamedia_" target="_blank"><i class="fa-brands fa-x-twitter" style="color: var(--text-color-light);"></i></a></div>
+          <div class="platform"><a href="https://www.tiktok.com/@oiamedia" target="_blank"><i class="fa-brands fa-tiktok" style="color: var(--text-color-light);"></i></a></div>
+          <div class="platform"><a href="https://www.linkedin.com/in/oia-media-837a482b4/" target="_blank"><i class="fa-brands fa-linkedin" style="color: var(--text-color-light);"></i></a></div>
+        </div>
+        <div class="rights">
+          <div class="icon"><img src="assets/images/logo.png" alt="OIA Media"></div>
+          <p> <span data-translate="footer-number">Company number </span><a href="tel:+201015870312">+201015870312</a></p>
+          <p data-translate="footer-rights">© All rights reserved.</p>
+        </div>
       </div>
-      <div class="btns"><a href="contact.html" target="_blank">
-          <button class="contact-btn" type="submit" target="_blank">
-            <p class="text" id="65">CONTACT THE TEAM</p>
-            <p class="description" id="66">Schedule a FREE call now</p>
-          </button></a>
-        <p id="67">or</p><a href="https://wa.me/+201015484767" target="_blank">
-          <button class="hire-btn" type="submit" target="_blank">
-            <p class="text" id="68">GET HIRED</p>
-            <p class="description" id="69">Join our team now</p>
-          </button></a>
-      </div>
-      <div class="social-platforms">
-        <div class="platform"><a href="https://www.instagram.com/oiamedia.me/" target="_blank"><i
-              class="fa-brands fa-instagram" style="color: var(--text-color-light);"></i></a></div>
-        <div class="platform"><a href="https://wa.me/+201099144423" target="_blank"><i class="fa-brands fa-whatsapp"
-              style="color: var(--text-color-light);"></i></a></div>
-        <div class="platform"><a href="https://www.facebook.com/abdo492" target="_blank"><i
-              class="fa-brands fa-facebook" style="color: var(--text-color-light);"></i></a></div>
-        <div class="platform"><a href="https://twitter.com/oiamedia_" target="_blank"><i class="fa-brands fa-x-twitter"
-              style="color: var(--text-color-light);"></i></a></div>
-        <div class="platform"><a href="https://www.tiktok.com/@oiamedia" target="_blank"><i class="fa-brands fa-tiktok"
-              style="color: var(--text-color-light);"></i></a></div>
-        <div class="platform"><a href="https://www.linkedin.com/in/oia-media-837a482b4/" target="_blank"><i
-              class="fa-brands fa-linkedin" style="color: var(--text-color-light);"></i></a></div>
-      </div>
-      <div class="rights">
-        <div class="icon"><img src="assets/images/logo.png" alt="OIA Media"></div>
-        <p>Company number <a href="tel:+201015870312">+201015870312</a></p>
-        <p>© All rights reserved.</p>
-      </div>
-    </div>
-  </footer>
-  <!-- ----- Font Awesome Library ------->
-  <script src="assets/libraries/js/all.min.js"> </script>
-  <!-- ----- Aos Library ------->
-  <script src="assets/libraries/js/aos.js"> </script>
-  <!-- ----- Stylesheets ------->
-  <script src="assets/js/all.js"></script>
-  <script src="assets/js/hire.js"></script>
-</body>
-
+    </footer>
+    <!-- ----- Font Awesome Library ------->
+    <script src="assets/libraries/js/all.min.js"> </script>
+    <!-- ----- Aos Library ------->
+    <script src="assets/libraries/js/aos.js"> </script>
+    <!-- ----- Stylesheets ------->
+    <script src="assets/js/all.js"></script>
+  </body>
 </html>
