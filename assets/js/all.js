@@ -46,7 +46,7 @@ const translations = {
       "We view our relationship with you as a partnership, customizing our approaches to meet your unique needs. This involves a sharp focus on paid ads, where we target your potential customers precisely to ensure that your investment yields maximum returns.",
     "features-item-description3":
       "Committed to your success, we aim to enhance your online presence and increase sales through a blend of organic and paid strategies. Let's collaborate to make your brand stand out and drive higher sales with effective digital marketing. Talking about Return on Ad Spend (ROAS), if we don't generate more sales than you spend, you get your money back — that's a guarantee.",
-    "features-items-title": "Also we provide much more...",
+    "features-items-title": "We also provide much more",
     "features-items-description":
       "Of course your organization needs a stunning look, you just don’t worry about it, It’s on US!",
     "features-card1": "BRANDING",
@@ -54,7 +54,7 @@ const translations = {
     "features-card3": "CONTENT CREATION",
     "features-card4": "SOCIAL MEDIA MANAGEMENT",
     // Clients Section
-    "clients-title": "Big name that trust us ",
+    "clients-title": "Big names that trust us",
     "clients-description":
       "We're honored to work with some of the biggest names in the industry who trust us to elevate their digital presence.",
     // Team Section
@@ -62,7 +62,7 @@ const translations = {
     "team-description1":
       "Dive into a world where unparalleled talent meets unmatched experience. Our A-Team is the core of our agency, boasting a collective 10 years of expertise across various industries. We're a dynamic group of visionaries, each selected for our unique skills and dedication to excellence.",
     "team-description2":
-      "Our broad spectrum of knowledge empowers us to deliver innovative solutions that redefine standards. Whether it's digital marketing, business strategy, or creative execution, we're at the cutting edge, ensuring our clients not only keep pace but lead the pack.",
+      "Our broad spectrum of knowledge empowers us to deliver innovative solutions that redefine standards. Whether it's digital marketing, business strategy, or creative execution, we're at the cutting edge, Ensuring our clients not to only keep the pace but lead the pack.",
     "team-description3":
       "Partnering with us means joining forces with a team dedicated to your success. We blend collaboration with proven methods to turn challenges into triumphs.",
     "team-description4":
@@ -70,7 +70,7 @@ const translations = {
     // Contact Section
     "contact-card-title": "SCHEDULE A FREE CALL WITH OMAR",
     "contact-card-description":
-      "By the end of this Audit call, you will have a clear understanding of the next steps you can take for your business to start generating consistent and reliable results online with Funnels & Paid Advertising.",
+      "By the conclusion of this demo call, you will have a thorough understanding of the actionable steps your business can implement to achieve consistent and reliable outcomes online through strategic Digital Marketing. We will explore the effective use of Funnels and Paid Advertising, providing you with a clear roadmap to enhance your digital marketing strategies.",
     "contact-items-title": "THIS CALL IS PERFECT FOR :",
     "contact-item1":
       "Businesses wanting to turn their website into a high-converting funnel using digital marketing.",
@@ -201,16 +201,28 @@ const translations = {
     "contact-date-description": "Enter a subtitle date based on your schedule",
     "contact-form-btn": "Confirm Your Meeting",
     "contact-team-title": "Wanna know more about our team !",
-    "contact-member1":
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, repudiandae. Aliquid consequatur minus quidem nostrum amet laboriosam culpa aspernatur commodi dicta, ratione delectus dolore tenetur laudantium, nihil obcaecati saepe exercitationem, pariatur eaque sapiente? Expedita architecto dolore explicabo rem consequuntur suscipit?",
-    "contact-member2":
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, repudiandae. Aliquid consequatur minus quidem nostrum amet laboriosam culpa aspernatur commodi dicta, ratione delectus dolore tenetur laudantium, nihil obcaecati saepe exercitationem, pariatur eaque sapiente? Expedita architecto dolore explicabo rem consequuntur suscipit?",
-    "contact-member3":
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, repudiandae. Aliquid consequatur minus quidem nostrum amet laboriosam culpa aspernatur commodi dicta, ratione delectus dolore tenetur laudantium, nihil obcaecati saepe exercitationem, pariatur eaque sapiente? Expedita architecto dolore explicabo rem consequuntur suscipit?",
-    "contact-member4":
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, repudiandae. Aliquid consequatur minus quidem nostrum amet laboriosam culpa aspernatur commodi dicta, ratione delectus dolore tenetur laudantium, nihil obcaecati saepe exercitationem, pariatur eaque sapiente? Expedita architecto dolore explicabo rem consequuntur suscipit?",
-    "contact-member5":
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, repudiandae. Aliquid consequatur minus quidem nostrum amet laboriosam culpa aspernatur commodi dicta, ratione delectus dolore tenetur laudantium, nihil obcaecati saepe exercitationem, pariatur eaque sapiente? Expedita architecto dolore explicabo rem consequuntur suscipit?",
+    "contact-member1-description1":
+      "Meet Omar Yahia, the strategic force and founding spirit behind our agency. As CEO and Founder, Omar embodies the essence of visionary leadership, backed by over 3 years of rich experience in managing businesses and mastering the intricacies of digital marketing. His journey is marked by a diverse portfolio, having navigated through various industries and steering big clients towards their strategic goals with unparalleled smoothness and efficiency.",
+    "contact-member1-description2":
+      "Omar's leadership is defined by his ability to foresee market trends and adapt strategies that not only meet but exceed the evolving digital marketing landscape. His expertise isn't just in leading our team; it's about fostering an environment where innovation thrives, and client satisfaction is paramount. Omar's approach to management and digital marketing is holistic, ensuring that our agency not only anticipates the needs of our clients but also delivers forward-thinking solutions that drive measurable success.",
+    "contact-member1-description3":
+      "Under Omar's guidance, our agency has become synonymous with excellence, pushing the boundaries of what's possible in digital marketing and business management. His dedication to our clients' growth and his commitment to our team's development are what make Omar Yahia not just our CEO and Founder but our chief architect of success.",
+    "contact-member2-description1":
+      "Introducing Mostafa, our esteemed Creative Director, whose visionary leadership and over five years of experience in creative advertising have significantly elevated our agency's portfolio. Specializing in branding identity, logo design, social media designs, content creation, and UI/UX web design, Mostafa’s broad skill set and innovative approach have been pivotal in transforming brands and crafting memorable digital experiences.",
+    "contact-member2-description2":
+      "Mostafa combines creative flair with strategic insight, ensuring that every project not only looks stunning but also aligns perfectly with our clients’ goals. His work is characterized by a deep understanding of the latest design trends and technologies, which he seamlessly integrates into projects to produce engaging and effective results.",
+    "contact-member2-description3":
+      "Under his guidance, our creative team has flourished, producing work that stands out for its creativity and impact. Mostafa’s dedication to excellence and his ability to anticipate and adapt to the ever-evolving digital landscape make him a key asset to our agency and the brands we serve.",
+    "contact-member3-description1":
+      "Meet Abdelrahman Samir, our Chief Marketing Officer, whose expertise in digital marketing, especially in paid advertising, has been pivotal to our success. With over three years of experience, Abdelrahman has mastered deploying advertising campaigns across various platforms such as Facebook, Instagram, Snapchat, TikTok, and Google. His profound understanding of the digital landscape, combined with his strategic use of paid advertising, enables him to craft highly effective strategies for reaching and engaging target audiences.",
+    "contact-member3-description2":
+      "In addition to managing paid advertising campaigns, Abdelrahman is adept at planning comprehensive marketing strategies that encompass a broad spectrum of digital marketing tools and techniques. His ability to blend SEO knowledge with his advertising acumen ensures our clients' content achieves broad visibility and engagement. This holistic approach to digital marketing strategy planning and execution underpins the success of our campaigns, making them not only visible but also impactful.",
+    "contact-member3-description3":
+      "Abdelrahman’s leadership in marketing strategy planning and paid advertising initiatives drives outstanding results. As our CMO, he leads with creativity and strategic insight, focusing on maximizing paid advertising effectiveness while ensuring that our overall marketing strategies are coherent, innovative, and aligned with our clients' business objectives. Under his guidance, we deliver campaigns that exceed expectations, helping our clients excel in the digital realm.",
+    "contact-member4-description1":
+      "Meet Abdelrahman Mohamed, a key player in our sales team with over two years of experience. Renowned for his exceptional persuasion skills and client management abilities, Abdelrahman excels in tailoring solutions to meet diverse customer needs, ensuring satisfaction and fostering long-term relationships. His strategic approach and dedication to continuous learning significantly contribute to our sales growth and team development. Abdelrahman's impact extends beyond sales figures; he is instrumental in enhancing our brand's reputation and trust with clients. We're proud to have such a dynamic and forward-thinking individual like Abdelrahman on our team.",
+    "contact-member5-description1":
+      "Meet Fatma, the creative engine of our agency, whose expertise in advertising content creation sets her apart. With a keen focus on social media, she excels in delivering a wide array of content that includes persuasive copywriting, in-depth articles, visually compelling infographics, and engaging scriptwriting. Fatma's specialty lies in her ability to weave strategic advertising narratives, drawing upon her 2 years of dedicated experience in the field. Her work is not just about crafting messages; it's about creating conversations that resonate deeply with the target audience, driving engagement, and achieving measurable results. Fatma's approach combines creativity with analytical precision, making her an invaluable asset to our team and a driving force behind our most successful campaigns.",
     // Hire Page
     "hire-title": "Become a member of our team now !",
     "hire-description": "Fill the form below to join our team",
@@ -238,13 +250,14 @@ const translations = {
     "footer-btn2-description": "Join our team now",
     "footer-number": "Company number",
     "footer-rights": "© All rights reserved.",
+    dev: "This website was developed by :",
   },
   ar: {
     // Navbar
     "nav-title1": "قائمة",
     "nav-item1": "الصفحة الرئيسية",
     "nav-item2": "من نحن ؟",
-    "nav-item3": "المميزات",
+    "nav-item3": "خدماتنا",
     "nav-item4": "تعرف علي الفريق",
     "nav-title2": "كن متواصل",
     "nav-item5": "تواصل معنا",
@@ -310,8 +323,8 @@ const translations = {
     "team-description4": "تجربة مستقبل النجاح الرقمي مع فريق النخبة",
     // Contact Section
     "contact-title": "احجز مكالمة مجانية الان مع عمر",
-    "contact-description":
-      "بحلول نهاية هذا المكالمة التوضيحية، ستكون قد حصلت على فهم شامل للخطوات العملية التي يمكن لعملك تنفيذها لتحقيق نتائج ثابتة وموثوقة عبر الإنترنت من خلال التسويق الرقمى الاستراتيجي. سنستكشف استخدام القنوات الفعّالة والإعلان المدفوع، مزودين إياك بخارطة طريق واضحة لتعزيز استراتيجيات التسويق الرقمى الخاصة بك",
+    "contact-card-description":
+      "بحلول نهاية هذا المكالمة التوضيحية، ستكون قد حصلت على فهم شامل للخطوات العملية التي يمكن لعملك تنفيذها لتحقيق نتائج ثابتة وموثوقة عبر الإنترنت من خلال التسويق الرقمي الاستراتيجي. سنستكشف استخدام القنوات الفعّالة والإعلان المدفوع، مزودين إياك بخارطة طريق واضحة لتعزيز استراتيجيات التسويق الرقمي الخاصة بك.",
     "contact-items-title": "من تناسب هذه المكالمة ؟",
     "contact-item1":
       "الشركات التي ترغب في تحويل موقعها الإلكتروني إلى قمع تحويل عالي باستخدام التسويق الرقمي",
@@ -375,8 +388,9 @@ const translations = {
     // Contact Page
     "contact-title": "تواصل معنا خلال ",
     "contact-whatsapp": "الواتس اب",
-    "contact-whatsappdescription": "اسهل طريقة للتواصل مع الفريق لحجز موعد",
-    "contact-form-notice": "( ترشيحنا لمقابلة أكثر احترافية )",
+    "contact-whatsappdescription":
+      "أسهل طريقة للوصول إلى الفريق وتحديد موعد للاجتماع",
+    "contact-form-notice": "( ترشيحنا لي حجز مقابلة أكثر احترافية )",
     "contact-form-title": "هل تخبرنا المزيد عنك ؟",
     "contact-form-description": "باختصار، قدم نفسك من خلال تلك الحقول التالية",
     "contact-field1-title": "بيانات شخصية",
@@ -409,32 +423,44 @@ const translations = {
     "contact-date-description": "أدخل تاريخ بناءً على الجدول الزمني الخاص بك",
     "contact-form-btn": "تأكيد حجز المقابلة",
     "contact-team-title": "هل تريد معرفة المزيد عن فريقنا !",
-    "contact-member1":
-      "العميل نفسه، سيكون العميل قادرا على متابعة adipiscing للشركة. أن يتم التنصل من الملذات. هل هناك أي شيء ينتج، بل أقل منا، أن الذنب المضني يُرفض بكلمات الراحة، ويختاره العقل، ويتحمله ألم من يمدحه، ولا شيء يعميه التدريب المتكرر، ويتحمله الحكماء ؟ هل سيبذل المهندس المعماري جهدًا لشرح نتيجة المشروع؟",
-    "contact-member2":
-      "العميل نفسه، سيكون العميل قادرا على متابعة adipiscing للشركة. أن يتم التنصل من الملذات. هل هناك أي شيء ينتج، بل أقل منا، أن الذنب المضني يُرفض بكلمات الراحة، ويختاره العقل، ويتحمله ألم من يمدحه، ولا شيء يعميه التدريب المتكرر، ويتحمله الحكماء ؟ هل سيبذل المهندس المعماري جهدًا لشرح نتيجة المشروع؟",
-    "contact-member3":
-      "العميل نفسه، سيكون العميل قادرا على متابعة adipiscing للشركة. أن يتم التنصل من الملذات. هل هناك أي شيء ينتج، بل أقل منا، أن الذنب المضني يُرفض بكلمات الراحة، ويختاره العقل، ويتحمله ألم من يمدحه، ولا شيء يعميه التدريب المتكرر، ويتحمله الحكماء ؟ هل سيبذل المهندس المعماري جهدًا لشرح نتيجة المشروع؟",
-    "contact-member4":
-      "العميل نفسه، سيكون العميل قادرا على متابعة adipiscing للشركة. أن يتم التنصل من الملذات. هل هناك أي شيء ينتج، بل أقل منا، أن الذنب المضني يُرفض بكلمات الراحة، ويختاره العقل، ويتحمله ألم من يمدحه، ولا شيء يعميه التدريب المتكرر، ويتحمله الحكماء ؟ هل سيبذل المهندس المعماري جهدًا لشرح نتيجة المشروع؟",
-    "contact-member5":
-      "العميل نفسه، سيكون العميل قادرا على متابعة adipiscing للشركة. أن يتم التنصل من الملذات. هل هناك أي شيء ينتج، بل أقل منا، أن الذنب المضني يُرفض بكلمات الراحة، ويختاره العقل، ويتحمله ألم من يمدحه، ولا شيء يعميه التدريب المتكرر، ويتحمله الحكماء ؟ هل سيبذل المهندس المعماري جهدًا لشرح نتيجة المشروع؟",
+    "contact-member1-description1":
+      "تعرفوا على عمر يحيى، القوة الاستراتيجية والروح المؤسسة لوكالتنا. كرئيس تنفيذي ومؤسس، يُجسد عمر جوهر القيادة البصيرة، مدعومًا بأكثر من 3 سنوات من الخبرة الغنية في إدارة الأعمال وإتقان تعقيدات التسويق الرقمي. مسيرته مميزة بمحفظة متنوعة، حيث تنقل عبر صناعات مختلفة وقاد العملاء الكبار نحو أهدافهم الاستراتيجية بسلاسة وكفاءة لا مثيل لها.",
+    "contact-member1-description2":
+      "تُعرف قيادة عمر بقدرته على توقع اتجاهات السوق وتكييف الاستراتيجيات التي لا تلبي الاحتياجات فحسب، بل تتجاوز التطور المستمر للمشهد التسويقي الرقمي. خبرته ليست فقط في قيادة فريقنا؛ بل في تنمية بيئة يزدهر فيها الابتكار، وتكون رضا العميل في قمة الأولويات. نهج عمر في الإدارة والتسويق الرقمي شامل، مضمونًا أن وكالتنا لا تتوقع احتياجات عملائنا فحسب، بل تقدم أيضًا حلولًا متقدمة تحقق نجاحًا قابلًا للقياس.",
+    "contact-member1-description3":
+      "تحت إشراف عمر، أصبحت وكالتنا مرادفة للتميز، مدفوعةً حدود ما هو ممكن في التسويق الرقمي وإدارة الأعمال. إخلاصه لنمو عملائنا والتزامه بتطوير فريقنا هو ما يجعل عمر يحيى ليس فقط رئيسنا التنفيذي ومؤسسنا ولكن مهندس نجاحنا الأول.",
+    "contact-member2-description1":
+      "يُعرّف بمصطفى، مديرنا الإبداعي الموقر، الذي رفع بقيادته الرؤيوية وخبرته التي تزيد عن خمس سنوات في مجال الإعلان الإبداعي، مستوى محفظة وكالتنا بشكل كبير. متخصص في هوية العلامة التجارية، تصميم الشعارات، تصاميم وسائل التواصل الاجتماعي، إنشاء المحتوى، وتصميم واجهة المستخدم/تجربة المستخدم للمواقع الإلكترونية، لقد كانت مجموعة مهارات مصطفى الواسعة ونهجه الابتكاري حاسمين في تحويل العلامات التجارية وصياغة تجارب رقمية لا تُنسى.",
+    "contact-member2-description2":
+      "يجمع مصطفى بين الذوق الإبداعي والفهم الاستراتيجي، مؤكدًا أن كل مشروع لا يبدو رائعًا فحسب، بل يتماشى أيضًا بشكل مثالي مع أهداف عملائنا. يتميز عمله بفهم عميق لأحدث اتجاهات التصميم والتكنولوجيا، التي يدمجها بسلاسة في المشاريع لإنتاج نتائج جذابة وفعالة.",
+    "contact-member2-description3":
+      "تحت إرشاده، ازدهر فريقنا الإبداعي، مُنتجًا أعمالاً تبرز بسبب إبداعها وتأثيرها. إن التزام مصطفى بالتميز وقدرته على التنبؤ والتكيف مع المشهد الرقمي المتطور باستمرار يجعلانه عنصرًا أساسيًا في وكالتنا والعلامات التجارية التي نخدمها.",
+    "contact-member3-description1":
+      "تعرفوا على عبد الرحمن سمير، ضابطنا الأعلى للتسويق، الذي كانت خبرته في التسويق الرقمي، وخاصة في الإعلانات المدفوعة، حاسمة في نجاحنا. بخبرة تزيد عن ثلاث سنوات، أتقن عبد الرحمن فن نشر حملات إعلانية عبر منصات متعددة مثل فيسبوك، إنستغرام، سناب شات، تيك توك، وجوجل. فهمه العميق للمشهد الرقمي، مقترنًا باستخدامه الاستراتيجي للإعلانات المدفوعة، يمكنه من صياغة استراتيجيات فعالة للغاية للوصول إلى الجمهور المستهدف وإشراكهم.",
+    "contact-member3-description2":
+      "يتميز عبد الرحمن ببراعته في إدارة حملات الإعلانات المدفوعة، محسنًا أداء الإعلان لضمان الحصول على أقصى عائد من الاستثمار بينما يضمن معرفته بممارسات SEO أن محتوى عملائنا يحقق رؤية واسعة. قيادته لمبادرات الإعلانات المدفوعة تقود إلى نتائج ممتازة، مما يجعل حملاتنا لها تأثير قوي.",
+    "contact-member3-description3":
+      "كضابطنا الأعلى للتسويق، يقود عبد الرحمن بإبداع ورؤية استراتيجية، مع التركيز على تعظيم فعالية الإعلانات المدفوعة. تحت إرشاده، نقدم حملات تتجاوز التوقعات، مساعدين عملائنا على التميز في العالم الرقمي.",
+    "contact-member4-description1":
+      "تعرف على عبد الرحمن محمد، عضو أساسي في فريق المبيعات لدينا ولديه أكثر من سنتين من الخبرة. يشتهر عبد الرحمن بمهاراته الاستثنائية في الإقناع وإدارة العملاء، حيث يتميز في تقديم حلول مخصصة تلبي احتياجات العملاء المتنوعة، مضموناً الرضا وبناء علاقات طويلة الأمد. نهجه الاستراتيجي وتفانيه في التعلم المستمر يسهمان بشكل كبير في نمو مبيعاتنا وتطوير فريقنا. تأثير عبد الرحمن يتجاوز الأرقام؛ فهو يلعب دورًا حاسمًا في تعزيز سمعة علامتنا التجارية وثقة العملاء. نحن فخورون بوجود شخص ديناميكي وذو تفكير مستقبلي مثل عبد الرحمن في فريقنا.",
+    "contact-member5-description1":
+      "تعرفوا على فاطمة، المحرك الإبداعي لوكالتنا، حيث تبرز خبرتها في إنشاء المحتوى الإعلاني. مع تركيز حاد على وسائل التواصل الاجتماعي، تتميز بتقديم مجموعة واسعة من المحتوى الذي يشمل كتابة النصوص الإعلانية الجذابة، المقالات المعمقة، الإنفوجرافيكس البصرياً الجاذب، وكتابة السيناريوهات المشوقة. تكمن تخصصية فاطمة في قدرتها على نسج الروايات الإعلانية الاستراتيجية، معتمدةً على خبرتها التي تمتد لعامين مكرسة في هذا المجال. عملها ليس مجرد صياغة رسائل؛ بل هو عن خلق حوارات ت resonate مع الجمهور المستهدف، دافعةً للتفاعل وتحقيق نتائج قابلة للقياس. تجمع فاطمة بين الإبداع والدقة التحليلية في منهجها، مما يجعلها أصلًا لا يُقدر بثمن لفريقنا وقوة دافعة وراء أنجح حملاتنا.",
     // Hire Page
-    "hire-title": "1",
-    "hire-description": "1",
-    "hire-input1": "1",
-    "hire-input2": "1",
-    "hire-input3": "1",
-    "hire-input3-option1": "1",
-    "hire-input3-option2": "1",
-    "hire-input4": "1",
-    "hire-input5": "1",
-    "hire-input5-option1": "1",
-    "hire-input5-option2": "1",
-    "hire-input5-option3": "1",
-    "hire-input5-option4": "1",
-    "hire-input5-option5": "1",
-    "hire-btn": "1",
+    "hire-title": "هل تريد أن تصبح عضو من الفريق الخاص بنا ؟",
+    "hire-description": "قم بملئ البيانات للإنضمام لدينا",
+    "hire-input1": "الاسم",
+    "hire-input2": "تاريخ الميلاد",
+    "hire-input3": "الجنس",
+    "hire-input3-option1": "ذكر",
+    "hire-input3-option2": "انثى",
+    "hire-input4": "التخصص",
+    "hire-input5": "عدد سنين الخبرة",
+    "hire-input5-option1": "اقل من سنة واحدة",
+    "hire-input5-option2": "سنة واحدة",
+    "hire-input5-option3": "سنتان",
+    "hire-input5-option4": "ثلاث سنوات",
+    "hire-input5-option5": "أكثر من ثلاث سنوات",
+    "hire-btn": "أنضم الان",
     // Footer
     "footer-title": "لنفعل الكثير سويا",
     "footer-description":
@@ -446,6 +472,7 @@ const translations = {
     "footer-btn2-description": "انضم الينا الان",
     "footer-number": "رقم الشركة ",
     "footer-rights": "© جميع الحقوق محمية ومحفوظة",
+    dev: "تم تطوير هذا الموقع بواسطة :",
   },
 };
 

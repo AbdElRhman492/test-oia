@@ -284,6 +284,9 @@ form .fields-container .field .row .input-field .input select {
   background-position: right 1rem top 50%;
   background-size: 16px auto;
 }
+form .fields-container .field .row .input-field .input select option {
+  font-family: "Almarai", "Cairo", sans-serif;
+}
 form .fields-container .field .row .input-field .input .radio_btns {
   width: 300px;
   display: flex;
@@ -792,29 +795,34 @@ header .container #btn:checked ~ .menu {
 .clients .container .cards {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 50px;
   width: 100%;
 }
 .clients .container .cards .row {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 50px;
-  width: calc(50% - 25px);
+  min-width: calc(50% - 25px);
+  max-width: max-content;
 }
 .clients .container .cards .row .card {
-  width: calc(50% - 25px);
+  min-width: calc(50% - 25px);
+  max-width: max-content;
   text-align: center;
 }
 .clients .container .cards .row .card .icon {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-  padding: 30px;
+  padding: 50px;
   border-radius: 20px;
+}
+.clients .container .cards .row .card .icon img {
+  width: 120px;
 }
 .clients .container .cards .row .card .data {
   padding-top: 30px;
@@ -832,9 +840,13 @@ header .container #btn:checked ~ .menu {
 @media screen and (max-width: 900px) {
   #clients .container .cards {
     flex-direction: column;
+    align-items: center;
   }
   #clients .container .cards .row {
     width: 100%;
+  }
+  #clients .container .cards .row .card .icon img {
+    width: 50px;
   }
 }
 .team-top-wave {
@@ -934,13 +946,13 @@ header .container #btn:checked ~ .menu {
 .team .container .member .data p.job {
   font-size: 18px;
   color: var(--slogan-color);
-  padding-bottom: 10px;
   font-weight: 400;
 }
 .team .container .member .data p.description {
   font-size: 16px;
   color: var(--text-gray);
   font-weight: 400;
+  margin-top: 15px;
 }
 .team footer {
   background-image: none;
@@ -1207,11 +1219,19 @@ header .container #btn:checked ~ .menu {
   gap: 10px;
 }
 .opinions .container .cards .row .card .data .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   width: 75px;
   height: 75px;
-  padding: 3px;
   border-radius: 50%;
+  padding: 10px;
   border: 2px solid var(--bg-color-dark);
+}
+.opinions .container .cards .row .card .data .icon img {
+  width: 40px;
+  height: 40px;
 }
 .opinions .container .cards .row .card .data .about p {
   color: var(--text-color-dark);
@@ -1474,6 +1494,25 @@ footer .container .rights .icon {
 footer .container .rights p {
   padding-top: 10px;
   font-size: 18px;
+}
+footer .container .rights .developer {
+  font-family: "Almarai", "Cairo", sans-serif;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+footer .container .rights .developer p {
+  padding-top: 0;
+}
+footer .container .rights .developer a {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--slogan-color);
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 512px) {
