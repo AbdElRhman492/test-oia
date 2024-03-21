@@ -241,6 +241,7 @@ const translations = {
     "hire-input5-option3": "2 year",
     "hire-input5-option4": "3 year",
     "hire-input5-option5": "More than 3 years",
+    "hire-input6": "Phone number",
     "hire-btn": "Send your data",
     // Footer
     "footer-title": "We do grant things together !",
@@ -307,7 +308,7 @@ const translations = {
     "features-items-title": "كما نقدم الكثير غير ذلك",
     "features-items-description":
       "بالطبع، تحتاج مؤسستك إلى مظهر مذهل، لا داعي اللقلق بشأن ذلك، فالأمر متروك لنا",
-    "features-card1": "الهوية البصرية",
+    "features-card1": "العلامة التجارية",
     "features-card2": "تصميم الويب",
     "features-card3": "إنشاء المحتوى",
     "features-card4": "إدارة وسائل التواصل الاجتماعي",
@@ -355,7 +356,7 @@ const translations = {
     "services-item2": "العلامة التجارية",
     "services-item3": "تصميم الويب",
     "services-item4": "صناعة المحتوي",
-    "services-item5": "وسائل التواصل الإجتماعي",
+    "services-item5": "إدارة وسائل التواصل الاجتماعي",
     "services-item1-title": "التسويق الإلكتروني",
     "services-item1-description1":
       "في البيئة الرقمية المتطورة بسرعة، تلتزم وكالتنا بتوظيف نهج متعدد الجوانب لالتقاط انتباه جمهورك المستهدف بفعالية. في قلب استراتيجيتنا يكمن الإعلان المدفوع، أداة ديناميكية تقذف بعلامتك التجارية إلى دائرة الضوء وتضمن الظهور الفوري. من خلال وضع الإعلانات بشكل استراتيجي على محركات البحث ومنصات التواصل الاجتماعي، نستغل قوة حملات الدفع بالنقرة (PPC) لجذب حركة مرور مستهدفة إلى موقعك الإلكتروني، مقدمين نتائج قابلة للقياس وعائد استثمار كبير.",
@@ -404,7 +405,7 @@ const translations = {
     "services-item4-description5":
       "دعونا نكون شريكك في رحلة خلق محتوى مؤثر يبرز علامتك التجارية وينمي علاقتها مع جمهورها.",
     "services-item4-description6": "",
-    "services-item5-title": "وسائل التواصل الإجتماعي",
+    "services-item5-title": "إدارة وسائل التواصل الاجتماعي",
     "services-item5-description1":
       "في شركتنا، نتبنى نهجًا شاملاً ومتخصصًا في إدارة وسائل التواصل الاجتماعي يتجاوز التفاعل البسيط مع المحتوى. نحن نفهم أن مفتاح تعزيز علامتك التجارية يكمن في التفاعل الفعال والتواصل المستمر مع جمهورك. لذلك، نقدم خدمات إدارة وسائل التواصل الاجتماعي التي تركز على الاستجابة لاحتياجات جمهورك والتواصل معهم بطريقة تعكس قيم ورسالة علامتك التجارية.",
     "services-item5-description2":
@@ -492,6 +493,7 @@ const translations = {
     "hire-input5-option3": "سنتان",
     "hire-input5-option4": "ثلاث سنوات",
     "hire-input5-option5": "أكثر من ثلاث سنوات",
+    "hire-input6": "رقم الهاتف",
     "hire-btn": "أنضم الان",
     // Footer
     "footer-title": "لنفعل الكثير سويا",
@@ -549,21 +551,21 @@ window.addEventListener("scroll", scrollIndicator);
 
 // Prevent Inspector Tools
 
-//- Disable right-click
-// document.addEventListener("contextmenu", (e) => e.preventDefault());
+// - Disable right-click
+document.addEventListener("contextmenu", (e) => e.preventDefault());
 
-// function ctrlShiftKey(e, keyCode) {
-//   return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
-// }
+function ctrlShiftKey(e, keyCode) {
+  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+}
 
-// document.onkeydown = (e) => {
-//   // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
-//   if (
-//     event.keyCode === 123 ||
-//     ctrlShiftKey(e, "I") ||
-//     ctrlShiftKey(e, "J") ||
-//     ctrlShiftKey(e, "C") ||
-//     (e.ctrlKey && e.keyCode === "U".charCodeAt(0))
-//   )
-//     return false;
-// };
+document.onkeydown = (e) => {
+  // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+  if (
+    event.keyCode === 123 ||
+    ctrlShiftKey(e, "I") ||
+    ctrlShiftKey(e, "J") ||
+    ctrlShiftKey(e, "C") ||
+    (e.ctrlKey && e.keyCode === "U".charCodeAt(0))
+  )
+    return false;
+};
